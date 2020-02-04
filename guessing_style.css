@@ -1,0 +1,36 @@
+
+.container {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+.guessSubmit {
+    margin: 10px;
+    
+}
+
+.rule{
+    font-size: 20px;
+    font-weight: lighter;
+    width: 100%;
+}
+
+#guessField{
+    margin: 0 auto;
+}
+
+#newGameBtn {
+    margin: 10px;
+    visibility: hidden;
+    
+}
+
+#prevtxt {
+    visibility: hidden;
+}
+#hint {
+    font-size: 20px;
+}
+
+
