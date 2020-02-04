@@ -8,8 +8,6 @@ const hint = document.querySelector('#hint');
 const prevtxt = document.querySelector('#prevtxt');
 const newGameBtn = document.getElementById('newGameBtn');
 
-  
-
 console.log(`${secretNumber}`);
 
 function generateNum(){

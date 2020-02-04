@@ -1,6 +1,6 @@
 
 .container {
-    width: 30%;
+    width: 100%;
     margin: auto;
     text-align: center;
 }
@@ -26,9 +26,6 @@
     
 }
 
-#prevtxt {
-    visibility: hidden;
-}
 #hint {
     font-size: 20px;
 }
