@@ -69,14 +69,12 @@ $('#submitBtn').click(() => {
 $('#resetBtn').click(() => {
     document.forms["myForm"].reset();
 })
-
 db.collection('test10').orderBy('name').onSnapshot(doc => {
     let table = $('tbody')[0]
     $("tbody tr").remove()
     mCounter = 0
     fmCounter = 0
     oCounter = 0 
-
     doc.forEach(item => {
         let row = table.insertRow(-1)
         let firstCell = row.insertCell(0)
