@@ -88,7 +88,6 @@ db.collection('test10').orderBy('name').onSnapshot(doc => {
                newMail += oldMail[i];
             }else newMail +='x';
         }
-
         firstCell.textContent = item.data().name
         secondCell.textContent = item.data().gender
         thirdCell.textContent = newMail;
