@@ -94,7 +94,7 @@ db.collection('test10').orderBy('name').onSnapshot(doc => {
         thirdCell.textContent = newMail;
         
         if(item.data().gender == 'male') mCounter++;
-        else if(item.data().gender == 'femail') fmCounter++;
+        else if(item.data().gender == 'female') fmCounter++;
         else oCounter++;
 
         google.charts.load("current", {packages:["corechart"]});
@@ -115,7 +115,7 @@ db.collection('test10').orderBy('name').onSnapshot(doc => {
     
             var options = {
               title: 'Gender',
-              titleTextStyle: {color: 'black', fontSize: 30},
+              titleTextStyle: {color: 'black', fontSize: 18},
               colors:['#66dbff','#ff006f','#866AF4'] ,
               pieHole: 0.5,
             };
