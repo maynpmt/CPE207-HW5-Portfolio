@@ -98,7 +98,7 @@ db.collection('test10').orderBy('name').onSnapshot(doc => {
 
         google.charts.load("current", {packages:["corechart"]});
         google.charts.setOnLoadCallback(drawChart);
-      
+
         var resultMale = mCounter/(mCounter + fmCounter + oCounter)*100;
         var resultFemale = fmCounter/(mCounter + fmCounter + oCounter)*100;
         var resultOther = oCounter/(mCounter + fmCounter + oCounter)*100;
